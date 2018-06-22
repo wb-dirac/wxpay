@@ -274,4 +274,5 @@ func Notify(config WxPayConfig, body []byte) (resp NotifyResponse, err error) {
 		err = errors.New("sign err")
 		return
 	}
+	return
 }
